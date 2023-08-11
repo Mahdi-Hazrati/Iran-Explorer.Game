@@ -1,0 +1,21 @@
+.close-button{
+    width: 32px;
+    height: 32px;
+    background-color:#F4F3F6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.1s all;
+}
+.close-button > .close-icon{
+    color: #000000;
+    font-size: 22px;
+    padding: 4px;
+}
+.close-button:hover{
+    filter: brightness(95%);
+
+}

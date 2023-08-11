@@ -1,0 +1,63 @@
+.answer-button {
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F4F3F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 4px 16px;
+    user-select: none;
+    transition: 0.2s all;
+    border: 1px solid #ede8e3;
+}
+.answer-button:hover{
+    cursor: pointer;
+    filter: brightness(98%);
+}
+.answer-button > .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    padding: 4px;
+    /* background-color: #ede8e3; */
+    background-color: #ffffff;
+    color: #191D63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-transform: uppercase;
+    user-select: none;
+}
+.answer-button > .value {
+    color: #060710;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* Selected answer button */
+.answer-button.selected{
+    background-color: #45C486;
+}
+.answer-button.selected > .icon{
+    background-color: #ffffff;
+    color: #45C486;
+}
+.answer-button.selected > .value{
+    color: #F4F3F6;
+}
+/* wrong answer */
+.answer-button.wrong{
+    background-color: #ff00009c;
+}
+.answer-button.wrong > .icon{
+    background-color: #ffffff;
+    color: #FF0000;
+}
+.answer-button.wrong > .value{
+    color: #F4F3F6;
+}

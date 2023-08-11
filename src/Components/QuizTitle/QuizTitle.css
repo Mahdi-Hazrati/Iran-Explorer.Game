@@ -1,0 +1,11 @@
+.quiz-title{
+    width: 350px;
+    height: 100px;
+    font-family: inherit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 10px 0px;
+    text-align: center;
+}

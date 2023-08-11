@@ -1,0 +1,26 @@
+.submit-button {
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #31cd63;
+    color: #f4f3f6;
+    font-family: inherit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.submit-button.deactive{
+    filter: grayscale(95%);
+    cursor: unset;
+    
+}
+

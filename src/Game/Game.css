@@ -1,0 +1,79 @@
+/* Font Config */
+@font-face {
+    font-family: Itim;
+    src: url("../Assets/Fonts/Itim-Regular.ttf");
+}
+.quiz-app{
+    font-family: "Itim";
+    font-size: 16px;
+    font-weight: 400;
+}
+/* main style */
+.quiz-app{
+    /* background-color: #EDE8E3; */
+    /* border: 1px solid #EDE8E3; */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+}
+/* Header section */
+.quiz-app > .header-section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.quiz-app > .header-section > .top-section{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.quiz-app > .header-section > .bottom-section{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* main section answer title and button */
+.quiz-app > .main-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+}
+.quiz-app > .main-section > .asnwer-buttons{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* footer section and continue button */
+.quiz-app > .footer-section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

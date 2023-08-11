@@ -1,0 +1,16 @@
+.step-counter {
+    width: 40px;
+    height: 20px;
+    color: #757575;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    user-select: none;
+}

@@ -1,0 +1,33 @@
+.game-point{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F4F3F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+    transition: 0.1s all;
+
+}
+.game-point:hover{
+    cursor: unset;
+    filter: brightness(95%);
+}
+.game-point > .value{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #191D63;
+    font-family: inherit;
+}
+.game-point > .point{
+    font-family: 16px;
+    background-color: #191D63;
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    color: #F4F3F6;
+}

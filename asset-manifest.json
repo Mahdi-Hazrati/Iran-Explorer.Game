@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Iran-Explorer.Game/static/css/main.a88e111b.css",
+    "main.js": "/Iran-Explorer.Game/static/js/main.d6d09de7.js",
+    "static/media/Itim-Regular.ttf": "/Iran-Explorer.Game/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
+    "index.html": "/Iran-Explorer.Game/index.html",
+    "main.a88e111b.css.map": "/Iran-Explorer.Game/static/css/main.a88e111b.css.map",
+    "main.d6d09de7.js.map": "/Iran-Explorer.Game/static/js/main.d6d09de7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a88e111b.css",
+    "static/js/main.d6d09de7.js"
+  ]
+}

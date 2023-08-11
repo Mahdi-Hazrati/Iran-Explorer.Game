@@ -1,9 +1,13 @@
 <h1 style="text-align: center;">Iran Explorer - Web Quiz Game</h1>
 <a href="#">Play Game - Comming Soon</a>
+
 <p>
-
-    Iran Explorer is an intriguing web-based game that invites players to test their knowledge about the rich and diverse country of Iran. With a collection of 100 engaging quizzes, this open-source game provides an opportunity for players to delve into various aspects of Iran's general information.
-
+    Iran Explorer is an intriguing web-based game that invites players
+    to test their knowledge about the rich and diverse country of Iran.
+    With a collection of 100 engaging quizzes,
+    this open-source game provides an opportunity
+    for players to delve into various aspects of Iran's general information.
+    
 </p>
 
 ## TODO:
